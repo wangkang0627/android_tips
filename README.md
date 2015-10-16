@@ -4,7 +4,7 @@
 * android命名规范
 * android注意事项
 * android小技巧
-* android兼容性bug
+* [android兼容性bug](https://github.com/wangkang0627/android_tips#android兼容性bug)
 
 ##android命名规范
 ###1. id控件命名规范
@@ -169,7 +169,7 @@
 		  <td>状态</td>
          </tr>
 		 <tr>
-		  <td>图片名_normal</td>
+		  <td>图片名_normal或者直接图片名</td>
 		  <td>(default state)</td>
          </tr>
 		  <tr>
@@ -210,7 +210,56 @@
 	 <tr>
 	  <td>Button的shape命名</td>
 	  <td>
-		shape前缀规范：根据里面的属性来进行命名前缀,比如: btn_redff6d6d_radius2.xml， btn_redff6d6d_radius2_1strokef8f8f8_press.xml(如果项目里面已经有了调色板，整个系统button都使用统一的边框和红色或者其他颜色，可以进行简化,例如btn_red_press,btn_red_)
+		shape前缀规范：根据里面的属性来进行命名前缀,比如: btn_redff6d6d_radius2.xml， btn_redff6d6d_radius2_1strokef8f8f8_press.xml(如果项目里面已经有了调色板，整个系统button都使用统一的边框和红色或者其他颜色，可以进行简化,例如btn_red_press)
+		<table>
+		 <tr>
+		  <td>命名规范</td>
+		  <td>状态</td>
+         </tr>
+		 <tr>
+		  <td>shape前缀_normal或者是直接shape前缀即可例如btn_red_radius2.xml</td>
+		  <td>(default state)</td>
+         </tr>
+		  <tr>
+		  <td>shape前缀_pressed</td>
+		  <td>state_pressed</td>
+         </tr>
+		  <tr>
+		  <td>shape前缀_focused</td>
+		  <td>state_focused</td>
+         </tr>
+		  <tr>
+		  <td>shape前缀_disabled</td>
+		  <td>state_enabled (false)</td>
+         </tr>
+		  <tr>
+		  <td>shape前缀_selected</td>
+		  <td>state_selected</td>
+         </tr>
+		 <tr>
+		  <td>shape前缀_hovered</td>
+		  <td>state_hovered</td>
+         </tr>
+		 <tr>
+		  <td>shape前缀_checkable</td>
+		  <td>state_checkable</td>
+         </tr>
+		 <tr>
+		  <td>shape前缀_activated</td>
+		  <td>state_activated</td>
+         </tr>
+		  <tr>
+		  <td>shape前缀_windowfocused</td>
+		  <td>state_windowfocused</td>
+         </tr>
+		</table>
+	  </td>
+	 </tr>
+	 <tr>
+	  <tr>
+	  <td>Button的selector命名</td>
+	  <td>
+		selector前缀规范：根据里面的属性来进行命名前缀,比如: btn_redff6d6d_radius2.xml， btn_redff6d6d_radius2_1strokef8f8f8_press.xml(如果项目里面已经有了调色板，整个系统button都使用统一的边框和红色或者其他颜色，可以进行简化,例如btn_red_press)
 		<table>
 		 <tr>
 		  <td>命名规范</td>
@@ -255,7 +304,6 @@
 		</table>
 	  </td>
 	 </tr>
-	 <tr>
 	  <td>Fragment</td>
 	  <td>fragment_模块名称.xml,例如：fragment_main.xml、fragment_user.xml</td>
 	</tr>
