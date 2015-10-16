@@ -1,9 +1,9 @@
 ## 本文主要是记录一下在日常开发中的一些总结和一些规范性的东西
 
 ###目录
-* android命名规范
-* android注意事项
-* android小技巧
+* [android命名规范](https://github.com/wangkang0627/android_tips#android命名规范)
+* [android注意事项](https://github.com/wangkang0627/android_tips#android注意事项)
+* [android小技巧](https://github.com/wangkang0627/android_tips#android小技巧)
 * [android兼容性bug](https://github.com/wangkang0627/android_tips#android兼容性bug)
 
 ##android命名规范
